@@ -35,17 +35,17 @@ Figshare:
 
 (corresponding section: Section 4)
 
-The data is the sample of Chinese administrative divison, which is used in the toponym **disambiguation task**. Limited by the national policy, only **<Nanjing City, JiangSu Province>** is provided. 
+The data are a sample of Chinese administrative divisions, which are used in the toponym **disambiguation task**. Limited by the national policy, only **<Nanjing City, JiangSu Province>** is provided. 
 
-In the **China-Nanjing.xlsx** file, each rolumn represents a data record referring to a specific administrative division. The **name** field is used to create **has_component** relations in address graph. 
+In the **China-Nanjing.xlsx** file, each column represents a data record referring to a specific administrative division. The **name** field is used to create **has_component** relations in the address graph. 
 
 -  **Graph data**
 
 (corresponding section: Section 3)
 
-The **Edge** and **Node** directories store the basic node and edge files that can be imported into graph database through a "Load csv" command. The name of file is the types of nodes and edges. Generally, we first import node files and then edge files.
+The **Edge** and **Node** directories store the basic node and edge files that can be imported into the graph database through a "Load csv" command. The name of the file is the types of nodes and edges. Generally, we first import node files and then edge files.
 
-The **Address.csv** is a complete preparing file to generate node and edge files in the project. In the file, **address segmentation** has been provided according to our semi-automatic method. We hope that the offered address segmentation can support more apllications. 
+**Address.csv** is a complete preparing file to generate node and edge files in the project. In the file, **address segmentation** has been provided according to our semiautomatic method. We hope that the offered address segmentation can support more applications. 
 
 -  **Matching data**
 
@@ -53,13 +53,13 @@ The **Address.csv** is a complete preparing file to generate node and edge files
 
 The **Address-Different Type** file is used in the **address matching** task. It provides the queried address with different changed formats. The data can be reused to test fuzzy matching.
 
-The **Address-Different Length** file is used in the **address matching** task. It provides the queried address with different string length.
+The **Address-Different Length** file is used in the **address matching** task. It provides the queried address with different string lengths.
  
 ### Code
 -  **PythonPro_AMatching**
 (corresponding section: Section 4)
 
-The project code is a prototype demo of address matching based on address graph including for original format and changed format. The **main.py** is the entrance of all project. Simply copy the directory into a new project **Pycharm** and prepare the requried **pylib**, then test the differnt addresses in **Matching data**.
+The project code is a prototype demo of address matching based on an address graph including for the original format and changed format. The **main.py** is the entrance of all projects. Simply copy the directory into a new project **PyCharm**, prepare the required **pylib**, then test the different addresses in the **Matching data**.
 
 ## License
 
