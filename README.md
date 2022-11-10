@@ -26,7 +26,7 @@ Figshare:
 
 ## Features
 - **1. Different relations connection**
-- **2. Supporting simple and fuzzy address macthing**
+- **2. Supporting simple and fuzzy address matching**
 - **3. Supporting toponym disambiguation**
 
 ## Usage
